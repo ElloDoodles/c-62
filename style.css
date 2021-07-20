@@ -1,0 +1,30 @@
+html {
+    text-align: center;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.carousel slide {
+    background: lineargradient(-45deg, #5c5c5c, #707070, #9c9c9c, #c9c9c9, #ffffff);
+}
+
+#MyCarousel img {
+    height: 300px;
+}
+
+.menue {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    background: red;
+    width: 100%;
+}
